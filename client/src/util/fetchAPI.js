@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://real-estate-fix.vercel.app"
 
 export const request = async (url, method, headers = {}, body = {}, isNotStringified = false) => {
     let res
